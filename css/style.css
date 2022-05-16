@@ -4,6 +4,45 @@
     box-sizing: border-box;
 }
 .container{
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
+    background-color: black;
+    height: 600px;
+}
+body{
+    font-family:sans-serif;
+    background-color: rgb(49,97,224);
+}
+/* header */
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    border: 1px solid black;
+}
+img{
+    height: 30px;
+}
+.logo-navbar{
+    display: flex;
+    background-color: rgb(49,97,224);
+    width: calc(100% / 3);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color: white;      
+}
+h3{
+    margin: 20px;
+}
+.accedi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
 }
