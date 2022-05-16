@@ -1,21 +1,17 @@
 /* color palette */
 /* sfondo ds:rgb(49,97,224); */
+/* rgb(142,161,225) */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* .container{
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: black;
-    height: 600px;
-} */
+
 body{
     font-family:sans-serif;
     background-color: rgb(49,97,224);
 }
-/* header */
+/* HEADER */
 nav{
     display: flex;
     flex-direction: row;
@@ -49,7 +45,7 @@ h4{
     border-radius: 30px;
     font-size: 15px;
 }
-/* main */
+/* MAIN */
 .download-ds{
     max-width: 800px;
     margin: 0 auto;
@@ -162,4 +158,53 @@ h2{
     border: none;
     background-color: rgb(142,161,225);
     color: white;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.final-navigation-menu{
+    display: flex;
+    height: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(35,39,42);
+    border: 1px solid white;
+    color: white;
+}
+.final-navigation-menu-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(35,39,42);
+    border: 1px solid black;
+}
+.h2-footer, .h3-footer{
+    color: rgb(114,137,218);
+}
+.container-footer-logo{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: rgb(35,39,42);
+    border: 1px solid white;
+}
+.footer-logo, .final-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(35,39,42);
+    border: 1px solid black;
+}
+.registrati{
+    background-color: rgb(142,161,225);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
