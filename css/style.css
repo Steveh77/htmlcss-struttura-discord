@@ -74,9 +74,7 @@ h1{
     color: white;
     text-align: center;
 }
-/* .buttons{
-    padding: 40px;
-} */
+
 .button-1{
     margin: 10px;
     padding:20px;
@@ -93,20 +91,75 @@ h1{
     background-color: black;
     color: white;
 }
-.another-description{
-    display: flex;    
+
+/* row-description */
+.row-description{
+    display: flex;  
 }
-.another-description-reverse{
+.row-description-reverse{
     display: flex;
     flex-direction: row-reverse;
 }
-.d-part1{
-    width: 30%;
+h2{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.row-part1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
     height: 500px;
     background-color: white;
+    justify-content: center;
+    padding: 100px;
 }
-.d-part2{
-    width: 70%;
+.row-part2{
+    display: flex;
+    width: 60%;
     height: 500px;
     background-color: grey;
+}
+
+
+/* colunm description */
+
+.colunm-description{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+}
+.colunm-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    height: 30%;
+    background-color:rgb(246,246,246);
+    border: 1px solid black;
+}
+.colunm-part2{
+    height: 50%;
+    background-color: rgb(41,40,65);
+    border: 1px solid black;
+}  
+
+.colunm-part3{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    background-color: rgb(246,246,246);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.button-3{
+    margin: 10px;
+    padding:20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(142,161,225);
+    color: white;
 }
